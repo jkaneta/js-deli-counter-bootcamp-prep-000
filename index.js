@@ -29,7 +29,7 @@ function currentLine(katzDeliLine) {
       }
 */
     }
-    lineList += customerArray.join(' ,');
+    lineList += customerArray.join(', ');
     return lineList;
   }
 }
