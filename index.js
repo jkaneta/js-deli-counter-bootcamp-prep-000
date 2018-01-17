@@ -21,7 +21,7 @@ function currentLine(katzDeliLine) {
     var lineList = 'The line is currently: ';
     var customerArray = [];
     for (let i = 0; i < katzDeliLine.length; i++) {
-        customerArray.push(`${i+1}. ${katzDeliLine[i]}`);
+      customerArray.push(`${i+1}. ${katzDeliLine[i]}`);
 /*      if (i === 0) {
         lineList += `${i+1}. ${katzDeliLine[i]}`;
       } else {
